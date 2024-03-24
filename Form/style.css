@@ -1,0 +1,29 @@
+/* Ensure the body has no margin to start with so that header can truly be full width */
+body {
+    margin: 0;
+    /* other styles */
+}
+
+/* This ensures the header is centered and full width */
+header {
+    width: 100%;
+    text-align: center;
+    /* other styles */
+}
+
+/* Container for the charts */
+.charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* other styles */
+}
+
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    width: 100%;
+    /* other styles */
+}
